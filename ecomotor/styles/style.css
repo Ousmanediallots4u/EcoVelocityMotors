@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-image: url("../images/background-image.png");
+}
+header {
+    padding-top: 2%;
+}
+.first-ul-list {
+    justify-content: center;
+    margin-left: 35%;
+    
+}
+
+.list-item {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    margin-right: 40px;
+   
+}
+
+.first-anchor {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    color: white;
+   
+}
+
+/* home page starts */
+h1 {
+    color: blue;
+}
+h2 {
+    color: white;
+    padding: 2% 0;
+}
+.home-page {
+    align-items: center;
+    margin-left: 59%;
+    margin-top: 17%;
+    padding-bottom: 25%;
+
+}
+span {
+    color: skyblue;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.first-button {
+    padding: 2% 8%;
+    border-radius: 5%;
+    border: none;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+/* home page end */
+
+/* About us Starts */
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.images img {
+    width: 350px;
+    height: 350px;
+    margin-left: 25%;
+    border-radius: 5%;
+}
+.content {
+    margin-right: 15%;
+}
+.first-paragraph {
+    padding: 5% 0;
+}
+
+.about-us {
+    color: skyblue;
+    font-size: 2rem;
+}
+/* About usEnd*/
+
+/* Services Start */
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 5% 0;
+    margin-left: 4%;
+}
+.services img {
+    width: 270px;
+    height: 250px;
+    border-radius: 5%;
+}
+/* Services Start */
