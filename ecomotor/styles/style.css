@@ -83,7 +83,7 @@ span {
     padding: 5% 0;
 }
 
-.about-us {
+.about-us , .h1-tag, .project-h1{
     color: skyblue;
     font-size: 2rem;
 }
@@ -103,4 +103,58 @@ span {
     height: 250px;
     border-radius: 5%;
 }
+
+.h1-tag, .project-h1 {
+   text-align: center;
+}
+h3, .h4-tag {
+    /* margin-left: 30%; */
+    text-align: center;
+}
+h4, .third-paragraph {
+    width: 85%;
+    text-align: center;
+}
+h4 {
+    padding: 2% 0;
+    color: skyblue;
+}
 /* Services Start */
+
+/* projects starts */
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2% 0;
+    margin-left: 10%;
+
+}
+.project-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.project-h1 {
+    padding: 1% 0;
+}
+
+.fourth-paragraph {
+   margin-right: 10%;
+}
+.text {
+   margin-top: 15%;
+}
+.pat {
+    padding-top: 5%;
+}
+/* projects starts */
+
+
+/* contact Us start */
+
+.contact-me {
+    background-color: aliceblue;
+}
+/* contact Us end */
