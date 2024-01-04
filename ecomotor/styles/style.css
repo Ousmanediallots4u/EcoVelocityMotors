@@ -11,7 +11,7 @@ header {
 }
 .first-ul-list {
     justify-content: center;
-    margin-left: 35%;
+    margin-left: 30%;
     
 }
 
@@ -19,7 +19,7 @@ header {
     display: inline-block;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    
     margin-right: 40px;
    
 }
@@ -34,7 +34,7 @@ header {
 
 /* home page starts */
 h1 {
-    color: blue;
+    color: #fff;
 }
 h2 {
     color: white;
@@ -42,13 +42,13 @@ h2 {
 }
 .home-page {
     align-items: center;
-    margin-left: 59%;
-    margin-top: 17%;
+    margin-left: 64%;
+    margin-top: 30%;
     padding-bottom: 25%;
 
 }
 span {
-    color: skyblue;
+    color: #fff;
     font-size: 18px;
     font-weight: 900;
 }
@@ -59,6 +59,10 @@ span {
     border: none;
     text-transform:uppercase;
     cursor: pointer;
+}
+.first-button:hover {
+   background-color: skyblue;
+   transition: 0.5s ease-in-out;
 }
 /* home page end */
 
@@ -155,6 +159,53 @@ h4 {
 /* contact Us start */
 
 .contact-me {
-    background-color: aliceblue;
+    background-color: rgb(35, 139, 212);
+    
+    border-radius: 1%;
 }
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+}
+.contact-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+   padding: 4% 0;
+   margin: 4% 0; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none; 
+}
+
+
+
+.form {
+    max-width: 600px; 
+    margin: auto; 
+}
+.form button {
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 5% 0;
+    border-radius: 20px;
+    border: none; 
+    cursor: pointer;
+    
+}
+.form button:hover {
+    background-color: skyblue;
+    transition: 0.5s ease-in-out;
+}
+
+ .form h2 {
+    text-align: center;
+ }
 /* contact Us end */
