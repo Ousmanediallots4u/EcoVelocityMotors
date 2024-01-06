@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +9,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
 }
 .body {
     background-image: url("../images/background-image.png");
@@ -217,3 +218,121 @@ h4 {
     text-align: center;
  }
 /* contact Us end */
+@media screen and (max-width: 1260px) {
+    /* About Us Starts */
+    .grid {
+        grid-template-columns: repeat(1, 1fr) !important; /* Use 1fr for both columns */
+        padding-top: 10% !important;
+        padding-bottom: 5% !important;
+        width: 100%;
+        margin-left: 5%;
+    }
+    .images img {
+        width: 550px;
+        height: 550px;
+        margin-left: 25%;
+        border-radius: 5%;
+        text-align: center;
+        width: 60%;
+        align-items: center;
+        margin-left: 20%;
+        display: block;
+    }
+
+   /* .about-us {
+    width: 90%;
+   } */
+
+   .about-us {
+    padding-top: 2%;
+   }
+    .first-paragraph {
+        padding: 5% 0;
+        text-align: center;
+        width: 80%;
+        align-items: center;
+        margin-left: 20%;
+        display: block;
+    }
+    
+    .about-us , .h1-tag, .project-h1{
+        color: skyblue;
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 15%;
+    }
+    /* About Us Ends */
+
+
+/* Services Starts */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 5% 0;
+    margin-left: 15%;
+}
+.services img {
+    width: 270px;
+    height: 250px;
+    border-radius: 5%;
+    align-items: center;
+    margin-left: 15%;
+}
+
+
+h3, .h4-tag {
+    /* margin-left: 30%; */
+    text-align: center;
+    margin-left: 15%;
+}
+h4, .third-paragraph {
+    width: 95%;
+    text-align: center;
+    padding: 2% 0;
+}
+.h1-tag, .project-h1 {
+    margin-right: 15% !important;
+    margin-left: 30% !important;
+}
+
+/* Services Ends */
+
+/* Projects Starts */
+
+
+
+
+
+.fourth-paragraph {
+   margin-right: 10%;
+   margin-top: -12%;
+   
+}
+
+.pat {
+padding-top: 7%;
+}
+.project-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+    margin-right: 40%;
+}
+/* Projects Ends */
+
+
+}
+
+/* Responsiveness Starts  */
+
+@media screen and (max-width: 1018px){
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 5% !important;
+    }
+    
+}
+
+/* Responsiveness end  */
