@@ -14,6 +14,8 @@ body {
 .body {
     background-image: url("../images/background-image.png");
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
     padding-top: 2%;
@@ -246,14 +248,14 @@ h4 {
    .about-us {
     padding-top: 2%;
    }
-    .first-paragraph {
-        padding: 5% 0;
-        text-align: center;
-        width: 80%;
-        align-items: center;
-        margin-left: 20%;
-        display: block;
-    }
+   .first-paragraph {
+    padding: 5% 0;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    margin-left: 20%;
+    display: block;
+}
     
     .about-us , .h1-tag, .project-h1{
         color: skyblue;
@@ -332,7 +334,79 @@ padding-top: 7%;
         grid-template-columns: repeat(1, 1fr) !important;
         padding: 5% !important;
     }
+
+    .fourth-paragraph {
+        text-align: center;
+        margin-left: 15%;
+    }
+    .project-image img {
+        width: 450px;
+        height: 450px;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    .images img {
+        width: 650px;
+        height: 550px;
+        margin-left: 25%;
+        border-radius: 5%;
+        text-align: center;
+        width: 60%;
+        align-items: center;
+        margin-left: 20%;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 810px){
+    .grid {
+        grid-template-columns: repeat(1, 1fr) !important; /* Use 1fr for both columns */
+        padding-top: 10% !important;
+        padding-bottom: 5% !important;
+        width: 100%;
+        margin-left: 15%;
+        
+    }
+  .images img {
+    width: 400px;
+    height: 400px;
+   
     
+  }
+
+  .first-paragraph {
+    padding: 5% 0;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    display: block;
+}
+
+/* Services Starts */
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 5% 0;
+    margin-left: 30%;
+   
+}
+
+.services img {
+    width: 470px;
+    height: 350px;
+    border-radius: 5%;
+    margin-right: 400% !important;
+    
+    
+}
+
+
+/* Services Ends */
 }
 
 /* Responsiveness end  */
